@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: giz333/python-app:${GITHUB_SHA::6}
+          tags: giz333/python-app:${{ env.COMMIT_ID }}
