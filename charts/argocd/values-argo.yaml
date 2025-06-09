@@ -24,5 +24,5 @@ server:
     enabled: true
     ingressClassName: nginx
     annotations:
-      nginx.ingress.kubernetes.io/backend-protocol: “HTTPS"
+      nginx.ingress.kubernetes.io/backend-protocol: HTTPS
     tls: true
